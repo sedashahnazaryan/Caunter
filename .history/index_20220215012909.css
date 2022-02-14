@@ -1,0 +1,55 @@
+
+    
+        
+
+.container{
+  display: flex;
+  height: 600px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(94, 121, 121);
+  flex-direction: column;
+}
+
+.counter{
+color: rgba(151, 75, 75, 0.87);
+
+}
+
+
+
+.btn-item{
+    display: flex;
+    justify-content: center;
+}
+#add,#lower {
+    background-color: #343942;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    
+    cursor: pointer;
+
+}
+/* #lower {
+    background-color: #498AFB;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer; */
+
+           #input{
+        background-color: #498AFB;
+        /* color: white; */
+        padding: 8px;
+        border-radius: 8px;
+        border: none;
+        font-size: 15px;
+        
+        cursor: pointer;    
+    }

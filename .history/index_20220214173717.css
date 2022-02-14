@@ -1,0 +1,30 @@
+.counter{
+color: rgba(151, 75, 75, 0.87);
+margin-left: 500px;
+}
+.zero{
+    margin-left: 500px;
+    
+}
+#add {
+    background-color: #498AFB;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-left: 5cm;
+    cursor: pointer;
+
+}
+#lover {
+    background-color: #498AFB;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-left: 4cm;
+    cursor: pointer;
+
+}

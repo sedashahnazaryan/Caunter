@@ -1,0 +1,47 @@
+
+    
+        
+
+.container{
+  display: flex;
+  height: 600px;
+  width: 600px;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+
+}
+
+.counter{
+color: rgba(151, 75, 75, 0.87);
+
+}
+
+
+
+.btn-item{
+    display: flex;
+    justify-content: center;
+}
+#add {
+    background-color: #498AFB;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-left:1;
+    cursor: pointer;
+
+}
+#lover {
+    background-color: #498AFB;
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 15px;
+    margin-left: 12cm;
+    cursor: pointer;
+
+}
