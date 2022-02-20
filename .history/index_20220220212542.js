@@ -10,21 +10,15 @@ let number = 0;
 
 
 counterPlusElem.addEventListener("click",()=>{
-    counterDisplayElem.value=counter.up();
+    counterDisplayElem.value++;
 }) ;
 
 counterMinusElem.addEventListener("click",()=>{
-    counterDisplayElem.value=counter.down();
+    counterDisplayElem.value--;
 });
-let counter = new Calc();
-function Calc(){
+function calc(){
     let count = 0;
-    this.up = function(){
-        return count++
-    }
-    this.down = function(){
-        return count--
-    }
+    this
 }
 
 

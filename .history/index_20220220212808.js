@@ -10,13 +10,13 @@ let number = 0;
 
 
 counterPlusElem.addEventListener("click",()=>{
-    counterDisplayElem.value=counter.up();
+    counterDisplayElem.value++;
 }) ;
 
 counterMinusElem.addEventListener("click",()=>{
-    counterDisplayElem.value=counter.down();
+    counterDisplayElem.value--;
 });
-let counter = new Calc();
+let co
 function Calc(){
     let count = 0;
     this.up = function(){

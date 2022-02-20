@@ -14,7 +14,7 @@ counterPlusElem.addEventListener("click",()=>{
 }) ;
 
 counterMinusElem.addEventListener("click",()=>{
-    counterDisplayElem.value=counter.down();
+    counterDisplayElem.value=co;
 });
 let counter = new Calc();
 function Calc(){
