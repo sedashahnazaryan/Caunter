@@ -16,16 +16,16 @@ counterPlusElem.addEventListener("click",()=>{
 counterMinusElem.addEventListener("click",()=>{
     counterDisplayElem.value=counter.down();
 });
-let counter = new Calc();
-function Calc(){
-    let count = 0;
-    this.up = function(){
-        return ++count
-    }
-    this.down = function(){
-        return --count
-    }
-}
+// let counter = new Calc();
+// function Calc(){
+//     let count = 0;
+//     this.up = function(){
+//         return count++
+//     }
+//     this.down = function(){
+//         return count--
+//     }
+// }
 
 
 function curry(a){

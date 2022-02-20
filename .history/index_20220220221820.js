@@ -23,7 +23,7 @@ function Calc(){
         return ++count
     }
     this.down = function(){
-        return --count
+        return count
     }
 }
 
